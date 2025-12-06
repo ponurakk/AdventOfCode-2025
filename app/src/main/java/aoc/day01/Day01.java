@@ -14,10 +14,11 @@ public class Day01 {
     }
 
     public static long solvePart1(List<String> input) {
-        return 0;
+        System.out.println(input);
+        return -1;
     }
 
     public static long solvePart2(List<String> input) {
-        return 0;
+        return -1;
     }
 }

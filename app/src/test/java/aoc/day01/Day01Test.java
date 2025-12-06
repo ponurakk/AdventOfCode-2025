@@ -4,13 +4,16 @@
 package aoc.day01;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+import aoc.CaptureStdOutExtension;
 import aoc.util.Input;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
+@ExtendWith(CaptureStdOutExtension.class)
 class Day01Test {
     @Test
     void part1() throws Exception {
